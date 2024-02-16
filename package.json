@@ -1,0 +1,33 @@
+{
+  "name": "templateforv2-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "node index.js",
+    "start": "nodemon index.js",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDSC-FPTU-DN/utilities-service.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "dotenv": "16.3.1",
+    "express": "^4.18.2",
+    "express-useragent": "^1.0.15",
+    "nodemailer": "6.9.8",
+    "nodemon": "^2.0.20",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.11.0"
+  }
+}
